@@ -6,8 +6,8 @@ var hundosArray = ["C", "D", "M"];
 var thousandsArray = ["M"];
 // var arrays = [onesArray, tens, hundos, thousands];
 
-var toRomanNumeral = function(numberString, array){
-  var number = parseInt(numberString);
+var toRomanNumeral = function(number, array){
+  // var number = parseInt(numberString);
   var romanNumeral = "";
   for (var i = 0; i < number; i++) {
     if (i < 3) {
@@ -27,13 +27,12 @@ var toRomanNumeral = function(numberString, array){
 
 var romanCount = function(inputNum) {
   var result;
-  debugger
   var inputArray = inputNum.split("").reverse();
   var ones = "";
   var tens = "";
   var hundos = "";
   var thousands = "";
-  
+
   for (var i = 0; i < inputArray.length; i++) {
     //when index is at ones place
     if (i === 0){

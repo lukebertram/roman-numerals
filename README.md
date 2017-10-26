@@ -9,8 +9,21 @@
   * Input: 1984
   * Output: 1,000, 900, 80, 4
 
-* Accept a number
+* Able to change a number from 1-9 to its roman numeral equivalent.
+  * Input: 1, 6, 9
+  * Output: I, VI, IX
 
+* Able to change a number from 10-99 to its roman numeral equivalent.
+  * Input: 20, 36, 92
+  * Output: XX, XXXVI, XCII
+
+* Able to change a number from 100-999 to its roman numeral equivalent.
+  * Input: 232, 672, 999
+  * Output: CCXXXII, DCLXXII, CMXCIX   
+
+* Able to change a number from 1000-3999 to its roman numeral equivalent.
+  * Input: 1076, 2243, 3998
+  * Output: MLXXVI, MMCCXLIII, MMMCCCXCVIII      
 
 ## Description
 
