@@ -5,11 +5,11 @@
 #### By **Luke Bertram** & **Nathan Barrett**
 
 ## Specifications
-* Accept a number that is the exact value of a single roman numeral and return the appropriate roman numeral.
-  * Input: "1, 5, 10, 50, 100, 500, 1000"
-  * Output: "I, V, X, L, C, D, M"
+* Able to break a number down into 1000, 100, 10, 1.
+  * Input: 1984
+  * Output: 1,000, 900, 80, 4
 
-* Accept a number 
+* Accept a number
 
 
 ## Description
