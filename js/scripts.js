@@ -29,7 +29,11 @@ var romanCount = function(inputNum) {
   var result;
   debugger
   var inputArray = inputNum.split("").reverse();
-  var ones, tens, hundreds, thousands;
+  var ones = "";
+  var tens = "";
+  var hundos = "";
+  var thousands = "";
+  
   for (var i = 0; i < inputArray.length; i++) {
     //when index is at ones place
     if (i === 0){
@@ -39,9 +43,9 @@ var romanCount = function(inputNum) {
     } else if (i === 1){
       tens = toRomanNumeral(inputArray[i], tensArray);
 
-    //when index is at hundreds place
+    //when index is at hundos place
     } else if (i === 2) {
-      hundreds = toRomanNumeral(inputArray[i], hundosArray);
+      hundos = toRomanNumeral(inputArray[i], hundosArray);
 
     //when index is at thousands place
     } else {
@@ -49,7 +53,7 @@ var romanCount = function(inputNum) {
 
     }
   }
-  result = thousands + hundreds + tens + ones;
+  result = thousands + hundos + tens + ones;
   return result;
 };
 
